@@ -407,27 +407,7 @@ velero restore get
 * Infrastructure as Code (Terraform)
 * Cloud migration and environment portability
 
----
-
-## Assumptions & Limitations
-
-* This project uses a single-region GKE cluster
-* Velero backups are manually triggered (can be scheduled)
 
 
----
-## Future Enhancements
 
-* Introduce Prometheus and Grafana for observability
-* Replace service account keys with GCP Workload Identity
-* Add security scanning to the CI pipeline
-* Implement scheduled and multi-region Velero backups
-* Package deployments using Helm
-
----
-
-## Author
-
-**<rukevwe ubioworo>**
-DevOps / Cloud Engineer
 
